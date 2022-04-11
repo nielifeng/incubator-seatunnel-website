@@ -51,7 +51,7 @@ SeaTunnel will do its best to solve the problems that may be encountered in the 
 
 ## Workflow of SeaTunnel
 
-![seatunnel-workflow.svg](../static/image/seatunnel-workflow.svg)
+![seatunnel-workflow.svg](images/image/seatunnel-workflow.svg)
 
 ```
 Source[Data Source Input] -> Transform[Data Processing] -> Sink[Result Output]
@@ -97,7 +97,7 @@ https://seatunnel.apache.org/docs/spark/quick-start
 https://seatunnel.apache.org/docs/flink/quick-start
 
 Detailed documentation on SeaTunnel
-https://seatunnel.apache.org/docs/introduction
+https://seatunnel.apache.org/docs/2.1.0/introduction
 
 ## Application practice cases
 

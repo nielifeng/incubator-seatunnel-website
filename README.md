@@ -23,10 +23,11 @@ This website is compiled using node, using Docusaurus framework components
 
 1. Download and install nodejs (version>12.5.0)
 2. Clone the code to the local `git clone git@github.com:apache/incubator-seatunnel-website.git`
-2. Run `npm install` to install the required dependent libraries.
-3. Run `npm run start` in the root directory, you can visit http://localhost:3000 to view the English mode preview of the site
-4. Run `npm run start-zh` in the root directory, you can visit http://localhost:3000 to view the Chinese mode preview of the site
-5. To generate static website resource files, run `npm run build`. The static resources of the build are in the build directory.
+3. Run `./tools/build-docs.sh` to fetch and prepare docs form **apache/incubator-seatunnel**, for more information you could see [how our document work](HOW_DOC_WORK.md)
+4. Run `npm install` to install the required dependent libraries.
+5. Run `npm run start` in the root directory, you can visit http://localhost:3000 to view the English mode preview of the site
+6. Run `npm run start-zh` in the root directory, you can visit http://localhost:3000 to view the Chinese mode preview of the site
+7. To generate static website resource files, run `npm run build`. The static resources of the build are in the build directory.
 
 ## 2. Directory structure
 
@@ -38,7 +39,6 @@ This website is compiled using node, using Docusaurus framework components
 ├── babel.config.js
 ├── blog
 ├── community  // Community
-├── docs  // Documentation
 ├── docusaurus.config.js
 |-- download  // Download
 ├── faq  // Q&A
@@ -52,6 +52,7 @@ This website is compiled using node, using Docusaurus framework components
 │           └── docusaurus-theme-classic
 ├── package.json
 ├── sidebars.js
+├── sidebarsCommunity.js
 ├── src
 │       ├── components
 │       ├── css
@@ -166,4 +167,4 @@ Located in `src/pages/versions`
 ### 3.9 add a new version for documents
 
 - 1、Run `npm run docusaurus docs:version replace_by_target_version` locally to copy a document.
-- 2、Modify the last version in `/src/pages/version/index.js` .
+- 2、Modify `/src/pages/version/config.json` for the latest and history versions.
