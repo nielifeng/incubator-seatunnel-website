@@ -61,7 +61,6 @@ const config = {
             }),
         ],
     ],
-
     themeConfig: ({
         colorMode: {
             defaultMode: 'light',
@@ -86,7 +85,8 @@ const config = {
                     items: [
                         {
                             label: versions[0],
-                            to: `docs/${versions[0]}/introduction`,
+                            to: `docs/${versions[0]}/intro/about`,
+
                         },
                         ...versions.slice(1).map((version) => ({
                             label: (version === "1.x") ? "1.x(Not Apache Release)" : version,
@@ -182,7 +182,7 @@ const config = {
                     items: [
                         {
                             label: 'FAQ',
-                            href: '/docs/FAQ',
+                            href: '/docs/faq',
                         },
                         {
                             label: 'Releases',
@@ -249,7 +249,6 @@ const config = {
         autoCollapseSidebarCategories: true,
 
     }),
-
     plugins: [
         'docusaurus-plugin-less',
         [
@@ -267,6 +266,9 @@ const config = {
                 sidebarPath: require.resolve('./sidebarsCommunity.js'),
             },
         ],
+    ],
+    scripts: [
+        {src: 'https://hm.baidu.com/hm.js?33a9aab233e1082f91e4e347ad716701',  async: true}
     ]
 };
 
