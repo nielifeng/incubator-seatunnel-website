@@ -110,6 +110,14 @@
         "gitUrl": "https://github.com/zhongjiajie",
         "githubId": "zhongjiajie",
         "name": "Jiajie Zhong"
+      },
+      {
+        "apacheId": "wenjun",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22415594?v=4",
+        "email": "wenjun@apache.org",
+        "gitUrl": "https://github.com/ruanwenjun",
+        "githubId": "ruanwenjun",
+        "name": "Wenjun Ruan"
       }
     ],
     "committer": [
@@ -146,20 +154,52 @@
         "name": "Yang Xiang"
       },
       {
-        "apacheId": "wenjun",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/22415594?v=4",
-        "email": "wenjun@apache.org",
-        "gitUrl": "https://github.com/ruanwenjun",
-        "githubId": "ruanwenjun",
-        "name": "Wenjun Ruan"
-      },
-      {
         "apacheId": "ming",
         "avatarUrl": "https://avatars.githubusercontent.com/u/18065113?v=4",
         "email": "ming@apache.org",
         "gitUrl": "https://github.com/simon824",
         "githubId": "simon824",
         "name": "Simon"
+      },
+      {
+        "apacheId": "fanjia",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32387433?v=4",
+        "email": "fanjia@apache.org",
+        "gitUrl": "https://github.com/Hisoka-X",
+        "githubId": "Hisoka-X",
+        "name": "Hisoka"
+      },
+      {
+        "apacheId": "tyrantlucifer",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51053924?v=4",
+        "email": "tyrantlucifer@apache.org",
+        "gitUrl": "https://github.com/tyrantlucifer",
+        "githubId": "tyrantlucifer",
+        "name": "Chao Tian"
+      },
+      {
+        "apacheId": "dijiekstra",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19817318?v=4",
+        "email": "dijiekstra@apache.org",
+        "gitUrl": "https://github.com/dijiekstra",
+        "githubId": "dijiekstra",
+        "name": "Jinxin Shen"
+      },
+      {
+        "apacheId": "zongwen",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36807946?v=4",
+        "email": "zongwen@apache.org",
+        "gitUrl": "https://github.com/ashulin",
+        "githubId": "ashulin",
+        "name": "Zongwen Li"
+      },
+      {
+        "apacheId": "gaojun2048",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32193458?v=4",
+        "email": "gaojun2048@apache.org",
+        "gitUrl": "https://github.com/EricJoy2048",
+        "githubId": "EricJoy2048",
+        "name": "Jun Gao"
       }
     ]
   },
@@ -274,6 +314,14 @@
         "gitUrl": "https://github.com/zhongjiajie",
         "githubId": "zhongjiajie",
         "name": "Jiajie Zhong"
+      },
+      {
+        "apacheId": "wenjun",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22415594?v=4",
+        "email": "wenjun@apache.org",
+        "gitUrl": "https://github.com/ruanwenjun",
+        "githubId": "ruanwenjun",
+        "name": "Wenjun Ruan"
       }
     ],
     "committer": [
@@ -310,20 +358,52 @@
         "name": "Yang Xiang"
       },
       {
-        "apacheId": "wenjun",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/22415594?v=4",
-        "email": "wenjun@apache.org",
-        "gitUrl": "https://github.com/ruanwenjun",
-        "githubId": "ruanwenjun",
-        "name": "Wenjun Ruan"
-      },
-      {
         "apacheId": "ming",
         "avatarUrl": "https://avatars.githubusercontent.com/u/18065113?v=4",
         "email": "ming@apache.org",
         "gitUrl": "https://github.com/simon824",
         "githubId": "simon824",
         "name": "Simon"
+      },
+      {
+        "apacheId": "fanjia",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32387433?v=4",
+        "email": "fanjia@apache.org",
+        "gitUrl": "https://github.com/Hisoka-X",
+        "githubId": "Hisoka-X",
+        "name": "Hisoka"
+      },
+      {
+        "apacheId": "tyrantlucifer",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51053924?v=4",
+        "email": "tyrantlucifer@apache.org",
+        "gitUrl": "https://github.com/tyrantlucifer",
+        "githubId": "tyrantlucifer",
+        "name": "Chao Tian"
+      },
+      {
+        "apacheId": "dijiekstra",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19817318?v=4",
+        "email": "dijiekstra@apache.org",
+        "gitUrl": "https://github.com/dijiekstra",
+        "githubId": "dijiekstra",
+        "name": "Jinxin Shen"
+      },
+      {
+        "apacheId": "zongwen",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36807946?v=4",
+        "email": "zongwen@apache.org",
+        "gitUrl": "https://github.com/ashulin",
+        "githubId": "ashulin",
+        "name": "Zongwen Li"
+      },
+      {
+        "apacheId": "gaojun2048",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32193458?v=4",
+        "email": "gaojun2048@apache.org",
+        "gitUrl": "https://github.com/EricJoy2048",
+        "githubId": "EricJoy2048",
+        "name": "Jun Gao"
       }
     ]
   }

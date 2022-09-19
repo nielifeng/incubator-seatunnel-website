@@ -1,4 +1,3 @@
-
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const versions = require('./versions.json');
@@ -62,6 +61,14 @@ const config = {
         ],
     ],
     themeConfig: ({
+        announcementBar: {
+            id: 'announcementBar', // Increment on change
+            content: `🤔 Have queries regarding Apache SeaTunnel, Join Slack channel to discuss them join <a target="_blank" rel="noopener noreferrer" href="https://join.slack.com/t/apacheseatunnel/shared_invite/zt-123jmewxe-RjB_DW3M3gV~xL91pZ0oVQ">#SeaTunnel</a> channel! 🌟`,
+            backgroundColor: "rgb(70, 125, 175, 0.8)",
+            isCloseable: false,
+        },
+        hideOnScroll: false, // Whether to hide the sidebar on scroll
+        hideableSidebar: true, // Whether to hide the sidebar in mobile
         colorMode: {
             defaultMode: 'light',
             disableSwitch: true
@@ -83,12 +90,11 @@ const config = {
                     position: 'right',
                     label: 'Document',
                     items: [
-                        {
-                            label: versions[0],
-                            to: `docs/${versions[0]}/intro/about`,
-
-                        },
-                        ...versions.slice(1).map((version) => ({
+                        ...versions.slice(0, versions.length - 2).map((version) => ({
+                            label: version,
+                            to: `docs/${version}/intro/about`,
+                        })),
+                        ...versions.slice(versions.length - 2, versions.length).map((version) => ({
                             label: (version === "1.x") ? "1.x(Not Apache Release)" : version,
                             to: `docs/${version}/introduction`,
                         })),
@@ -120,6 +126,12 @@ const config = {
                     activeBaseRegex: `/blog`,
                 },
                 {
+                    to: '/user_cases',
+                    label: 'UserCases',
+                    position: 'right',
+                    activeBaseRegex: `/user_cases`,
+                },
+                {
                     to: '/team',
                     label: 'Team',
                     position: 'right',
@@ -129,7 +141,7 @@ const config = {
                     to: '/user',
                     label: 'Users',
                     position: 'right',
-                    activeBaseRegex: `/user`,
+                    activeBaseRegex: `/user/`,
                 },
                 {
                     label: 'ASF',
@@ -167,10 +179,10 @@ const config = {
                     label: 'GitHub',
                     position: 'right',
                 },
-                {
-                    type: "localeDropdown",
-                    position: "right",
-                },
+                // {
+                //     type: "localeDropdown",
+                //     position: "right",
+                // },
             ],
         },
 
@@ -266,9 +278,17 @@ const config = {
                 sidebarPath: require.resolve('./sidebarsCommunity.js'),
             },
         ],
+        [
+            '@docusaurus/plugin-content-blog',
+            {
+                id: 'user_cases',
+                path: 'user_cases',
+                routeBasePath: 'user_cases',
+            },
+        ],
     ],
     scripts: [
-        {src: 'https://hm.baidu.com/hm.js?33a9aab233e1082f91e4e347ad716701',  async: true}
+        {src: 'https://hm.baidu.com/hm.js?33a9aab233e1082f91e4e347ad716701', async: true}
     ]
 };
 
