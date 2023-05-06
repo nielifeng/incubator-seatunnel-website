@@ -39,37 +39,13 @@ export default function () {
                                 <img className="button_icon github1" src={useBaseUrl('/home/icons/github' + flag + '.svg')} alt="github"/>
                                 <span>GitHub</span>
                             </a>
-                            <a href="https://join.slack.com/t/apacheseatunnel/shared_invite/zt-123jmewxe-RjB_DW3M3gV~xL91pZ0oVQ"
+                            <a href="https://the-asf.slack.com/archives/C053HND1D6X"
                                target="_blank"
                                className="corner_button blue"
                             >
                                 <img className="button_icon" src={useBaseUrl('/home/icons/slack.svg')} alt="slack"/>
                                 <span>Slack</span>
                             </a>
-                        </div>
-
-                        <div>
-                            <div className="cover_bg"></div>
-                            <div className="cover_page"/>
-                        </div>
-
-                        <div className="wave_wrapper wave_animation">
-                            <div className="wave_wrapper_inner bg_top"><div className="wave wave_top"></div></div>
-                            <div className="wave_wrapper_inner bg_middle"><div className="wave wave_middle"></div></div>
-                            <div className="wave_wrapper_inner bg_bottom"><div className="wave wave_bottom"></div></div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div className="main architecture">
-                <div className="block">
-                    <h1 className="main_subtitle text_center">{dataSource.common.architecture}</h1>
-                    <div className="item_block" style={{position: 'relative'}}>
-                        <p className="paragraph">{dataSource.home.architecture.desc}</p>
-                        <div className="architecture-image">
-                            <img className="button_icon github1" src={useBaseUrl('/image/seatunnel-workflow.svg')} alt="System Architecture"/>
                         </div>
                     </div>
                 </div>
